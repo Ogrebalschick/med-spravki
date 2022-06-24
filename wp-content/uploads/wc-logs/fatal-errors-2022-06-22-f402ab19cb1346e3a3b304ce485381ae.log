@@ -1,0 +1,74 @@
+2022-06-22T09:48:36+00:00 CRITICAL Uncaught Error: Call to undefined function get_categories_product() in C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php:17
+Stack trace:
+#0 C:\OpenServer\domains\med-spavki\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\med-spavki\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\med-spavki\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 17
+
+2022-06-22T09:53:49+00:00 CRITICAL syntax error, unexpected '$args' (T_VARIABLE), expecting ')' в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 17
+
+2022-06-22T09:53:58+00:00 CRITICAL syntax error, unexpected '$args' (T_VARIABLE), expecting ')' в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 17
+
+2022-06-22T09:54:48+00:00 CRITICAL syntax error, unexpected ':' в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 17
+
+2022-06-22T09:55:00+00:00 CRITICAL syntax error, unexpected ':' в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 17
+
+2022-06-22T09:56:29+00:00 CRITICAL syntax error, unexpected '}' в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 19
+
+2022-06-22T10:04:44+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 12
+
+2022-06-22T11:50:53+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 31
+
+2022-06-22T11:52:42+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 31
+
+2022-06-22T11:59:33+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 31
+
+2022-06-22T11:59:38+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 31
+
+2022-06-22T12:00:10+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 31
+
+2022-06-22T12:03:14+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 32
+
+2022-06-22T12:03:54+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 31
+
+2022-06-22T12:41:39+00:00 CRITICAL syntax error, unexpected '{', expecting variable (T_VARIABLE) в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 12
+
+2022-06-22T13:19:13+00:00 CRITICAL Cannot redeclare get_cat_name() (previously declared in C:\OpenServer\domains\med-spavki\wp-includes\category.php:223) в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 10
+
+2022-06-22T13:19:23+00:00 CRITICAL syntax error, unexpected '$cat_id' (T_VARIABLE) в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 11
+
+2022-06-22T13:19:36+00:00 CRITICAL syntax error, unexpected '$cat_id' (T_VARIABLE) в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 11
+
+2022-06-22T13:22:17+00:00 CRITICAL syntax error, unexpected 'limit' (T_STRING), expecting ']' в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 10
+
+2022-06-22T13:32:06+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php:9
+Stack trace:
+#0 C:\OpenServer\domains\med-spavki\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\med-spavki\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\med-spavki\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 9
+
+2022-06-22T13:33:35+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 11
+
+2022-06-22T13:34:14+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 11
+
+2022-06-22T13:34:36+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 14
+
+2022-06-22T13:35:34+00:00 CRITICAL syntax error, unexpected end of file в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 14
+
+2022-06-22T13:36:29+00:00 CRITICAL syntax error, unexpected 'limit' (T_STRING), expecting ']' в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 9
+
+2022-06-22T13:44:26+00:00 CRITICAL syntax error, unexpected 'limit' (T_STRING), expecting ']' в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 9
+
+2022-06-22T13:45:05+00:00 CRITICAL syntax error, unexpected ':', expecting ']' в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 9
+
+2022-06-22T13:51:38+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php:9
+Stack trace:
+#0 C:\OpenServer\domains\med-spavki\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\med-spavki\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\med-spavki\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\med-spavki\wp-content\themes\twentytwenty\сatalog.php на строке 9
+
