@@ -1969,6 +1969,7 @@ border-radius: 5px;
     font-size: 18px;
     line-height: 25px;
     color: #1567B4;
+    text-align: center!important;
 }
 
 .product .woocommerce-Price-amount span {
