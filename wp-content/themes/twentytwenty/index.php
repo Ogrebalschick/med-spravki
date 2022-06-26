@@ -21,16 +21,15 @@ Template Name: home
                     </div>
                     <div class="site_form-1-right">
                         <div class="site_form form_img-1">
-                            <div class="site_form-inner">
+                            <div class="site_form-inner input_top">
                                 <div class="site_form-title">
                                     Быстрый заказ справки
                                 </div>
                                 <div class="site_form-text">
                                     Оформите заявку на справку всего в пару кликов!
                                 </div>
-                                <div class="site_form-input">
-                                    <?php echo do_shortcode('[contact-form-7 id="147"]') ?>
-
+                                <div class="site_form-input ">
+                                    <?php echo do_shortcode('[contact-form-7 id="147" title="Контактная форм"]') ?>
                                 </div>
                             </div>
                         </div>
@@ -330,14 +329,11 @@ Template Name: home
                     </div>
                     <div class="form-right">
                         <div class="form-help">help</div>
-                        <div class="site_form sf-2 form_img-2">
-                            <div class="site_form-title">
-                                Быстрый заказ справки
-                            </div>
+                        <div class="site_form sf-2 form_img-2 input_bottom">
                             <div class="site_form-text">
                                 Оставьте заявку, мы поможем выбрать нужную в вашей ситуации справку!
                             </div>
-                            <div class="site_form-input">
+                            <div class="site_form-input ">
                                 <?php echo do_shortcode('[contact-form-7 id="147" title="Контактная форм"]') ?>
                             </div>
                         </div>

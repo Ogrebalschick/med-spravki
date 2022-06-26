@@ -29,8 +29,21 @@ Template Name: home
                                     Оформите заявку на справку всего в пару кликов!
                                 </div>
                                 <div class="site_form-input">
-                                    <?php echo do_shortcode('[contact-form-7 id="147"]') ?>
+                                  
+                                    <form>
 
+                                        <!-- Hidden Required Fields -->
+                                        <input type="hidden" name="project_name" value="med-spravki">
+                                        <input type="hidden" name="admin_email" value="test@mail.ru">
+                                        <input type="hidden" name="form_subject" value="top">
+                                        <!-- END Hidden Required Fields -->
+
+                                        <input type="text" name="Name" placeholder="You name..." required><br>
+                                        <input type="text" name="E-mail" placeholder="You E-mail..." required><br>
+                                        <input type="text" name="Phone" placeholder="You phone..."><br>
+                                        <button>Заказать справку</button>
+
+                                    </form>
                                 </div>
                             </div>
                         </div>

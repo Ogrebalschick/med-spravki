@@ -803,6 +803,7 @@ add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_script( 'jquery' );
     wp_enqueue_script( 'slick', get_template_directory_uri() . '/assets/script/slick.js', array('jquery'), 'null', true );
 	wp_enqueue_script( 'script', get_template_directory_uri() . '/assets/script/script.js', array('jquery'), 'null', true );
+	wp_enqueue_script( 'mail', get_template_directory_uri() . 'script.js', array('jquery'), 'null', true );
 });
 
 add_theme_support('post-thumbnails');
